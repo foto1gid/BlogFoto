@@ -1,0 +1,58 @@
+body {
+    font-family: "Gupter", serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.header {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-join, .header-getting {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.header-join:hover, .header-getting:hover {
+    background-color: yellow;
+}
